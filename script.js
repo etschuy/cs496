@@ -1,5 +1,5 @@
 var client_id = encodeURIComponent("476074288057-p310k2e371kt9a99thtf08kbk272ogh7.apps.googleusercontent.com");
-var redirect_uri = encodeURIComponent("http://localhost:8000/oauthcallback.html");
+var redirect_uri = encodeURIComponent(window.location.href + "/oauthcallback.html");
 var response_type = "token";
 var scope = "email";
 var state = Math.random().toString(36).substring(7);
